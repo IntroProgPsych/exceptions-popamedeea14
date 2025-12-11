@@ -25,3 +25,15 @@
 # Operation finished.
 
 # write your code here:
+
+try:
+    number1= int(input("Type in a numerator:"))
+    number2=int(input("Type in a denominator:"))
+    resault= number1/number2
+    print(resault)
+except:
+    print("You can not devide by 0")
+else:
+    print("It's all good")
+finally:
+    print("This is the end")
